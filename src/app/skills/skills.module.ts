@@ -11,6 +11,8 @@ import { SkillComponent } from './skill/skill.component';
 import { SkillsRoutingModule } from './skills-routing.module';
 import { SkillsComponent } from './skills.component';
 import { DescriptionUiComponent } from './description-ui/description-ui.component';
+import { TasksModule } from '../missions/tasks/tasks.module';
+import { GuiModule } from '../gui/gui.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { DescriptionUiComponent } from './description-ui/description-ui.componen
   ],
   imports: [
     CommonModule,
+    GuiModule,
     UtilModule,
+    TasksModule,
     SkillsRoutingModule
   ]
 })
