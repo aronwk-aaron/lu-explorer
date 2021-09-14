@@ -24,6 +24,7 @@
     "@angular/router": "12.2.0",
     "core-js": "^2.6.12",
     "firebase": "^8.3.2",
+    "flexsearch": "^0.7.21",
     "rxjs": "^6.6.7",
     "tslib": "^2.2.0",
     "typeface-nunito": "0.0.72",
